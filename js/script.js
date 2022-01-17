@@ -24,4 +24,8 @@ new Vue ({
 
     },
 
+    methods: {
+
+    },
+
 });

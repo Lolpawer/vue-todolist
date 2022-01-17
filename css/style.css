@@ -10,3 +10,7 @@
 .ms_list-style {
     border-bottom: 1px gray solid;
 }
+
+.ms_done {
+    text-decoration: line-through;
+}
