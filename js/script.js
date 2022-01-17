@@ -22,13 +22,20 @@ new Vue ({
             },
         ],
 
+        temporaryItem: '',
+
     },
 
     methods: {
 
         remove: function (index) {
             this.todoList.splice(index, 1);
-        }
+        },
+
+        addList: function () {
+            this.todoList.push({text: this.temporaryItem, done: false});
+            this.temporaryItem = '';
+        },
 
     },
 
