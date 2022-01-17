@@ -24,7 +24,7 @@
 
             <div class="row">
                 <div class="col text-center py-3">
-                    <input placeholder="Aggiungi alla lista" v-model="temporaryItem">
+                    <input placeholder="Aggiungi alla lista" v-model="temporaryItem" @keyup.enter="addList">
                     <button @click="addList">Invia</button>
                 </div>
             </div>
