@@ -37,6 +37,14 @@ new Vue ({
             this.temporaryItem = '';
         },
 
+        doneToggle: function (index) {
+            if (this.todoList[index].done == true) {
+                this.todoList[index].done = false;
+            } else {
+                this.todoList[index].done = true;
+            };
+        },
+
     },
 
 });
