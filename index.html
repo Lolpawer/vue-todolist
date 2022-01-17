@@ -28,7 +28,7 @@
                         <ul class="list-unstyled">
                             <li v-for="(item, i) in todoList" class="px-3 py-2 ms_list-style">
                                 <div v-bind:class="{' text-decoration-line-through': item.done}">{{item.text}}</div>
-                                <div @click="remove">&#10006;</div>
+                                <div @click="remove" class="ms_x">&#10006;</div>
                             </li>
                         </ul>
                     </div>
