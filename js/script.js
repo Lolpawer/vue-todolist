@@ -26,6 +26,10 @@ new Vue ({
 
     methods: {
 
+        remove: function (index) {
+            this.todoList.splice(index, 1);
+        }
+
     },
 
 });

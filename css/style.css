@@ -11,6 +11,7 @@
     border-bottom: 1px gray solid;
 }
 
-.ms_done {
-    text-decoration: line-through;
+li {
+    display: flex;
+    justify-content: space-between;
 }
