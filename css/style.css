@@ -1,0 +1,12 @@
+.ms_title {
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ms_todo-bg {
+    background-color: lightgray;
+}
+
+.ms_list-style {
+    border-bottom: 1px gray solid;
+}
